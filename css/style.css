@@ -8,9 +8,9 @@
 
 @font-face {
     font-family: "ITCAvantGardeStd-Demi";
-    src: url("/fonts/ITCAvantGardeStd-Demi.woff2"), url("/fonts/ITCAvantGardeStd-Demi.woff");
+    src: url("/fonts/ITCAvantGardeStd-Demi.woff2"), url("/fonts/OpenSans-Regular.woff2");
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-display: swap;
   }
   
