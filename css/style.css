@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans-Regular.woff2"), url("/fonts/OpenSans-Regular.woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "ITCAvantGardeStd-Demi";
+    src: url("/fonts/ITCAvantGardeStd-Demi.woff2"), url("/fonts/ITCAvantGardeStd-Demi.woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.logo {
+    display: flex;
+    position: relative;
+    width: 275px;
+    height: 82px;
+    background-color: #FFF;
+}
+
+.circle {
+    display: inline-block;
+    margin-right: 9px;
+    width: 82px;
+    height: 82px;
+    background-color: #FFF;
+    border: 16px solid #261F0F;
+    border-radius: 50%;
+}
+
+.segment {
+    position: absolute;
+    z-index: 10;
+    top: 25px;
+    left: 42px;
+    display: inline-block;
+    width: 0; 
+    height: 0;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-right: 25px solid #00ADFF;
+    border-radius: 50%;
+}
+
+.circle-segment{
+    position: absolute;
+    top: 15px;
+    left: 44px;
+    display: inline-block;
+    width: 0; 
+    height: 0;
+    border-top: 26px solid transparent;
+    border-bottom: 26px solid transparent;
+    border-right: 40px solid #FFF;
+    border-radius: 50%;
+  }
+
+.logo_right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 10px;
+}
+
+.logo_right-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+}
+
+.logo_right-top,
+.logo_right-bottom-left {
+    font-family: "ITCAvantGardeStd-Demi", sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #261F0F;
+    text-transform: uppercase;
+}
+
+.logo_right-bottom-left {
+    color: #00ADFF;
+}
+
+.logo_right-bottom-right {
+    width: 80px;
+    margin-left: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 9px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #261F0F;
+}
